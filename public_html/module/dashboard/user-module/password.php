@@ -7,7 +7,7 @@
         ?>
         
         <?php
-            $val = "User Profile | CBTS.in"; 
+            $val = "Change Password | CBTS.in"; 
             include './module/dashboard/content/topnav.php'; 
         ?>
         <div class="content">
