@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Login Admin</title>
-	<?php include '../content/head.html';?>
+	<?php include './content/head.php';?>
 </head>
 <body>
 	<div class="col-sm-12">

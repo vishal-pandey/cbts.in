@@ -1,0 +1,139 @@
+<style type="text/css">
+	.top-bar{
+		background-color: green;
+		height: 30px;
+		display: none;
+	}
+	.main{
+		border: 0;
+	}
+	.company{
+		background-color: rgb(255,238,238);
+		display: block;
+		border-bottom: 10px solid lightgrey;
+	}
+	.company .logo h1{
+		font-family: 'Nosifer', cursive;
+		color: rgb(125,134,125);
+	}
+	.logo{
+		float: left;
+	}
+	.login{
+		float: right;
+	}
+	.login button{
+		border-radius: 0;
+	}
+	.package{
+		text-align: center;
+		background-color: rgb(238,238,255);
+		padding: 0;
+	}
+	.package h2{
+		border-bottom: 1px solid green;
+		margin: 0;
+		padding-top: 10px;
+		color: #B388FF;
+		display: block;
+		box-shadow: 0px 5px 5px black;
+	}
+	.package h2 small{
+		font-size: 15px;
+	}
+	.package-content{
+		margin: 0;
+		background-color: rgb(245,245,245);
+	}
+	.package-card{
+		background-color: #B2EBF2;
+		margin: 20px;
+		border: 1px solid lightgrey;
+		box-shadow: 1px 1px 2px grey;
+		padding: 0;
+		float: initial;
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-block;
+	}
+	.package-card div{
+		padding: 15px;
+		background-color: lightyellow;
+		border-bottom: 1px solid lightgrey;
+		color: #827717;
+	}
+	.package-card h3{
+		color: #006064;
+	}
+	body{
+		background-color: white;
+	}
+	.moto{
+		font-family: 'Josefin Sans' , sans-serif;
+		font-size: 18px;
+	}
+	.footer{
+		text-align: center;
+		padding: 15px;
+		background-color: black;
+		color: white;
+		box-shadow: 0px -2px 5px grey;
+	}
+	.buy-now{
+		border-radius: 0;
+	}
+
+	@media only screen and (max-width: 786px){
+		.logo , .login{
+			float: initial;
+			text-align: center;
+			margin-top: 0;
+		}
+		.company h1{
+			margin-top: 0;
+		}
+		.company{
+			padding-top: 20px;
+		}
+	}
+	section.test-login{
+		text-align: center;
+		height: 0vh;
+		position: absolute;
+		background-color: rgb(245,245,245);
+		display: none;
+		padding: 0;
+		overflow: hidden;
+	}
+	.login-container , .signup-container{
+		float: initial;
+		display: inline-block;
+		margin-top: 30px;
+		background-color: lightyellow;
+		box-shadow: 2px 2px 5px grey;
+		padding-bottom: 15px;
+	}
+	.login-container input , .signup-container input{
+		border-radius: 0;
+	}
+	.login-container button , .signup-container button{
+		border-radius: 0;
+	}
+	.signup-container{
+		display: none;
+		margin-left: 100%;
+	}
+	.signup-box{
+		float: initial;
+		display: inline-block;
+		padding: 5px;
+		border-radius: 0;
+		border: 1px solid #F9A825;
+		margin-top: 10px;
+		background: #FBC02D;
+		box-shadow: 2px 2px 3px lightgrey;
+	}
+	.signup-error , .login-error{
+		display: none;
+	}
+</style>
